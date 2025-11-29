@@ -5,6 +5,13 @@ const achievement = [
   {
     title: "EPIM - Web Development",
     desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
+    image: ["src/assets/image/epim2025.jpg"],
+    badge: ["1st Place"],
+    date: ["31 Agustus 2024"],
+  },
+  {
+    title: "EPIM - Web Development",
+    desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
     image: ["src/assets/image/epim.jpg"],
     badge: ["3rd Runner-up"],
     date: ["31 Agustus 2024"],
@@ -20,7 +27,7 @@ const achievement = [
     title: "Short Film - KEMENAG",
     desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
     image: ["src/assets/image/sejati.jpg"],
-    badge: ["3rd Runner-up"],
+    badge: ["2nd place"],
     date: ["5 Desember 2024"],
   },
 ];

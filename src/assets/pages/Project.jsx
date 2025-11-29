@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ExternalLink, Github } from "lucide-react";
 import { Button } from "../../components/ui/button";
 
 const projectsData = {
@@ -56,7 +57,7 @@ const projectsData = {
       type: "design",
     },
   ],
-  "Photograpy":[
+  Photograpy: [
     {
       title: "Photography Portfolio",
       desc: "A collection of my best photography work.",
@@ -66,7 +67,6 @@ const projectsData = {
       type: "photo",
     },
   ],
-  
 };
 
 const getButtonLabel = (type) => {
@@ -86,74 +86,90 @@ const getButtonLabel = (type) => {
 export default function Project() {
   const [activeTab, setActiveTab] = useState("Web Programming");
 
+  const tabs = ["Film", "Web Programming", "Desaign UI/UX", "Photograpy"];
+
   return (
-    <section id="project" className="py-16 px-4 min-h-screen bg-[#0f172a]">
-      {/* Title */}
-      <h2 className="text-center text-white text-4xl font-bold mb-10">
-        PROJECT
-      </h2>
+    <section id="project" className="relative py-28 px-6 ">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          
 
-      {/* Tabs */}
-      <div className="flex justify-center items-center gap-2 mb-12 flex-wrap">
-        {["Film", "Web Programming", "Desaign UI/UX", "Photograpy"].map((tab) => (
-          <Button
-            key={tab}
-            onClick={() => setActiveTab(tab)}
-            className={`rounded-full px-6 w-60 py-2 font-medium transition-all duration-100 shadow ${
-              activeTab === tab
-                ? "bg-white text-black hover:bg-white hover:text-black"
-                : "bg-[#1E293B] text-white hover:bg-white hover:text-black"
-            }`}
-          >
-            {tab}
-          </Button>
-        ))}
-      </div>
+          <h2 className="text-3xl font-bold text-center  text-white">PROJECTS</h2>
 
-      {/* Projects Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
-        {projectsData[activeTab]?.map((project, index) => (
-          <div
-            key={index}
-            className="bg-[#1E293B] rounded-xl p-5 text-white shadow-md hover:shadow-2xl transition flex flex-col h-full"
-          >
-            {/* Image */}
-            <div className="relative mb-4">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="rounded-lg w-full h-48 object-cover"
-              />
-              {project.sub && (
-                <span className="absolute top-2 right-2 bg-blue-300 border border-blue-500 rounded-full text-blue-800 text-xs px-3 py-1 font-medium">
-                  {project.sub}
-                </span>
-              )}
+          <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
+            Koleksi project terbaikku di berbagai bidang 
+          </p>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
+          {tabs.map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`px-6 py-3 rounded-full transition-all duration-300 ${
+                activeTab === tab
+                  ? "bg-blue-500 text-white"
+                  : "border border-zinc-700 text-zinc-400 hover:border-blue-500 hover:text-white"
+              }`}
+            >
+              {tab}
+            </button>
+          ))}
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {projectsData[activeTab]?.map((project, index) => (
+            <div
+              key={index}
+              className="group relative overflow-hidden rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-blue-500 transition-all duration-500"
+              style={{ animationDelay: `${index * 120}ms` }}
+            >
+              <div className="aspect-video overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+
+              <div className="p-8">
+                {project.sub && (
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 text-sm border border-purple-500/30">
+                      {project.sub}
+                    </span>
+                  </div>
+                )}
+
+                <h3 className="text-2xl mb-3 text-white  group-hover:text-blue-400 transition-colors">
+                  {project.title}
+                </h3>
+
+                <p className="text-zinc-400 mb-6 leading-relaxed">{project.desc}</p>
+
+                <div className="flex items-center gap-4">
+                  <a href={project.link} target="_blank">
+                    <button className="flex items-center gap-2 px-4 py-2 rounded-full border border-zinc-700 hover:bg-zinc-800 hover:border-purple-500 transition-all duration-300 group/btn">
+                      <ExternalLink className="w-4 h-4 text-blue-400" />
+                      <span className="text-sm text-zinc-300 group-hover/btn:text-white">
+                        {getButtonLabel(project.type)}
+                      </span>
+                    </button>
+                  </a>
+
+                  {project.type === "code" && (
+                    <a href={project.link} target="_blank">
+                      <button className="flex items-center gap-2 px-4 py-2 rounded-full border border-zinc-700 hover:bg-zinc-800 hover:border-purple-500 transition-all duration-300 group/btn">
+                        <Github className="w-4 h-4 text-blue-400" />
+                        <span className="text-sm text-zinc-300 group-hover/btn:text-white">Source</span>
+                      </button>
+                    </a>
+                  )}
+                </div>
+              </div>
             </div>
-
-            {/* Title & Desc */}
-            <h3 className="text-lg font-semibold leading-snug mb-2">
-              {project.title || "Untitled Project"}
-            </h3>
-            <p className="text-sm text-start text-gray-300 mb-4 leading-relaxed line-clamp-3">
-              {project.desc || "Deskripsi belum tersedia."}
-            </p>
-
-            {/* Action Button */}
-            {project.link && (
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-auto"
-              >
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                  {getButtonLabel(project.type)}
-                </Button>
-              </a>
-            )}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
