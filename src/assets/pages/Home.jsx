@@ -1,9 +1,9 @@
 import React from "react";
-import { FaEye, FaDownload, FaPlay } from "react-icons/fa";
+import { FaEye, FaDownload, FaPlay, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <section className="flex items-center justify-center px-2 py-8">
+    <section className="flex items-center justify-center mt-9 px-2 py-8">
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-10 md:px-10">
         {/* Teks di kiri */}
         <div className="flex-1 text-center md:text-left">
@@ -27,6 +27,20 @@ export default function Home() {
               <FaDownload className="text-sm transition-colors duration-300" />
               Download CV
             </button>
+          </div>
+          <div className="mt-10 flex flex-col items-center md:items-start">
+            <span className="text-gray-400 font-semibold text-lg mb-4">Connect with me:</span>
+            <div className="flex gap-6">
+              <a href="#" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
+                <FaGithub />
+              </a>
+              <a href="#" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
+                <FaLinkedin />
+              </a>
+              <a href="#" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
+                <FaInstagram />
+              </a>
+            </div>
           </div>
         </div>
 

@@ -4,7 +4,7 @@ import React from "react";
 const achievement = [
   {
     title: "EPIM - Web Development",
-    desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
+    desc: "Full-stack Ticketing solution built with native HTML JS CSS",
     image: ["src/assets/image/epim2025.jpg"],
     badge: ["1st Place"],
     date: ["31 Agustus 2024"],
@@ -18,14 +18,14 @@ const achievement = [
   },
   {
     title: "Desain UI/UX Mobile App and Web",
-    desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
+    desc: "Figma UI/UX prototype for e-commerce mobile app",
     image: ["src/assets/image/desain.jpg"],
     badge: ["3rd place"],
     date: ["31 Agustus 2024"],
   },
   {
     title: "Short Film - KEMENAG",
-    desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
+    desc: "Film pendek 'Sejati' menggambarkan perjuangan persahabatan di tengah perbedaan keyakinan.",
     image: ["src/assets/image/sejati.jpg"],
     badge: ["2nd place"],
     date: ["5 Desember 2024"],
