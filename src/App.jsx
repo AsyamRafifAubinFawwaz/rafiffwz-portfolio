@@ -6,7 +6,7 @@ import Project from './assets/pages/Project'
 import Certificate from './assets/pages/Certificate'
 import Achievement from './assets/pages/Achievement'
 import { Education } from './assets/pages/Education'
-import { Experience } from './assets/pages/experience'
+import { Experience } from './assets/pages/Experience'
 import Footer from './components/Footer'
 
 function App() {
