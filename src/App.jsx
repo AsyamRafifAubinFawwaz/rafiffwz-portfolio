@@ -16,23 +16,23 @@ function App() {
       <section id="home">
         <Home />
       </section>
+      <section id="certificate">
+        <Certificate />
+      </section>
       <section id="project">
         <Project />
       </section>
       <section id="skills">
         <Skills />
       </section>
-      <section id="certificate">
-        <Certificate />
-      </section>
       <section id="achievement">
         <Achievement />
       </section>
-      <section id="education">
-        <Education />
-      </section>
       <section id="experience">
         <Experience />
+      </section>
+      <section id="education">
+        <Education />
       </section>
       <Footer />
     </>

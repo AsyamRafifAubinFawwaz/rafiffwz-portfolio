@@ -9,7 +9,7 @@ const projectsData = {
       desc: "Sejati adalah film pendek bertema persahabatan lintas iman.",
       image: "asset/image/film.jpg",
       sub: "Lomba Short Film",
-      link: "https://youtube.com/sejati-film",
+      link: "https://youtu.be/VRcdXxBjiSg?si=UUFaP7zaHFCADzLx",
       type: "video",
     },
     {
@@ -17,7 +17,7 @@ const projectsData = {
       desc: "Perjalanan seorang pemuda dari dunia gelap menuju kesadaran dan hijrah.",
       image: "asset/image/berandal.jpg",
       sub: "Film Portfolio",
-      link: "https://youtube.com/berandalan-tobat",
+      link: "https://youtu.be/hUjKMT9ROks?si=zLQc4K-dcS_OU1Zu",
       type: "video",
     },
   ],

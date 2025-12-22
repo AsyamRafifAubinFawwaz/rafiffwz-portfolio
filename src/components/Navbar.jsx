@@ -24,11 +24,12 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <button onClick={() => scrollToSection('home')} className="hover:text-[#0668e8] transition">Home</button>
+          <button onClick={() => scrollToSection('certificate')} className="hover:text-[#0668e8] transition">Certificate</button>
           <button onClick={() => scrollToSection('project')} className="hover:text-[#0668e8] transition">Project</button>
           <button onClick={() => scrollToSection('skills')} className="hover:text-[#0668e8] transition">Skills</button>
-          <button onClick={() => scrollToSection('certificate')} className="hover:text-[#0668e8] transition">Certificate</button>
           <button onClick={() => scrollToSection('achievement')} className="hover:text-[#0668e8] transition">Achievement</button>
           <button onClick={() => scrollToSection('education')} className="hover:text-[#0668e8] transition">Educations</button>
+          <button onClick={() => scrollToSection('experience')} className="hover:text-[#0668e8] transition">Experience</button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -44,11 +45,12 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden px-6 pb-4 flex flex-col space-y-2 bg-[#0F172B]">
           <button onClick={() => scrollToSection('home')} className="hover:text-[#0668e8] transition text-left">Home</button>
+          <button onClick={() => scrollToSection('certificate')} className="hover:text-[#0668e8] transition text-left">Certificate</button>
           <button onClick={() => scrollToSection('project')} className="hover:text-[#0668e8] transition text-left">Project</button>
           <button onClick={() => scrollToSection('skills')} className="hover:text-[#0668e8] transition text-left">Skills</button>
-          <button onClick={() => scrollToSection('certificate')} className="hover:text-[#0668e8] transition text-left">Certificate</button>
           <button onClick={() => scrollToSection('achievement')} className="hover:text-[#0668e8] transition text-left">Achievement</button>
           <button onClick={() => scrollToSection('education')} className="hover:text-[#0668e8] transition text-left">Educations</button>
+          <button onClick={() => scrollToSection('experience')} className="hover:text-[#0668e8] transition text-left">Experience</button>
         </div>
       )}
     </nav>

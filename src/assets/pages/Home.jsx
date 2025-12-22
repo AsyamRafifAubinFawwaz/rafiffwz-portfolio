@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEye, FaDownload, FaPlay, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaEye, FaDownload, FaPlay, FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -31,14 +31,17 @@ export default function Home() {
           <div className="mt-10 flex flex-col items-center md:items-start">
             <span className="text-gray-400 font-semibold text-lg mb-4">Connect with me:</span>
             <div className="flex gap-6">
-              <a href="#" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
+              <a href="https://github.com/AsyamRafif" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
                 <FaGithub />
               </a>
-              <a href="#" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
+              <a href="https://www.linkedin.com/in/asyam-rafif/" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
                 <FaLinkedin />
               </a>
-              <a href="#" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
+              <a href="https://www.instagram.com/rafif3207" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
                 <FaInstagram />
+              </a>
+              <a href="https://wa.me/+6289627507491" className="bg-[#232323] rounded-full w-16 h-16 flex items-center justify-center text-3xl text-white hover:scale-110 transition">
+                <FaWhatsapp />
               </a>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -35,9 +35,8 @@ const Footer = () => {
                   <FaEnvelope size={16} />
                   your.email@example.com
                 </a>
-                <a href="tel:+628123456789" className="flex items-center gap-2 text-gray-400 hover:text-sky-400 transition text-sm">
-                  <FaPhone size={16} />
-                  +62 812 3456 789
+                <a href="https://wa.me/+6289627507491" className="flex items-center gap-2 text-gray-400 hover:text-sky-400 transition text-sm">
+                  <FaWhatsapp size={16} />
                 </a>
                 <div className="flex gap-4 text-gray-400 text-lg pt-2">
                   <a href="https://github.com/AsyamRafif" className="hover:text-white transition">
