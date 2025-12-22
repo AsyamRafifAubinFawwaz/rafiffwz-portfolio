@@ -2,15 +2,17 @@ import React from "react";
 import { FaEye, FaDownload, FaPlay, FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
-  const handleViewProject = () => {
-    const projectSection = document.getElementById("project-section");
-    if (projectSection) {
-      projectSection.scrollIntoView({ behavior: "smooth" });
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setMenuOpen(false);
     }
   };
 
+
   const handleDownloadCV = () => {
-    window.open("asset/rafif-cv.pdf", "_blank");
+    window.open("asset/image/Rafif-cv.pdf", "_blank");
   };
 
   return (
@@ -30,7 +32,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start">
-            <button onClick={handleViewProject} className="bg-[#2563EB] text-white px-6 py-3 rounded-md border-2 border-[#2563EB] hover:bg-white hover:text-[#2563EB] transition-all duration-300 flex items-center justify-center gap-2 font-medium shadow-lg hover:shadow-xl">
+            <button onClick={() => scrollToSection('project')} className="bg-[#2563EB] text-white px-6 py-3 rounded-md border-2 border-[#2563EB] hover:bg-white hover:text-[#2563EB] transition-all duration-300 flex items-center justify-center gap-2 font-medium shadow-lg hover:shadow-xl">
               <FaPlay className="text-sm transition-colors duration-300" />
               View Project
             </button>
