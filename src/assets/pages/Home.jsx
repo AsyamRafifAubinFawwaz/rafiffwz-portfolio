@@ -47,7 +47,7 @@ export default function Home() {
         {/* Gambar di kanan */}
         <div className="flex-1 flex justify-center md:mt-36 md:justify-end ml-2 md:ml-10 bg-gradient-to-t from-[#0668e8] to-[#1E293B] rounded-lg overflow-hidden max-w-[320px]">
           <img
-            src="src/assets/image/profil.png"
+            src="asset/image/profil.png"
             alt="Foto Profil"
             className="w-full h-auto object-cover"
           />

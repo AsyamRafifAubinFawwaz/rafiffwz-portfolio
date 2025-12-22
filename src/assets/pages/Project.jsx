@@ -7,7 +7,7 @@ const projectsData = {
     {
       title: "Short Film: Sejati",
       desc: "Sejati adalah film pendek bertema persahabatan lintas iman.",
-      image: "src/assets/image/film.jpg",
+      image: "asset/image/film.jpg",
       sub: "Lomba Short Film",
       link: "https://youtube.com/sejati-film",
       type: "video",
@@ -15,7 +15,7 @@ const projectsData = {
     {
       title: "Short Film: Berandalan Tobat",
       desc: "Perjalanan seorang pemuda dari dunia gelap menuju kesadaran dan hijrah.",
-      image: "src/assets/image/berandal.jpg",
+      image: "asset/image/berandal.jpg",
       sub: "Film Portfolio",
       link: "https://youtube.com/berandalan-tobat",
       type: "video",
@@ -26,7 +26,7 @@ const projectsData = {
     {
       title: "Web Tiket Konser DJ4U",
       desc: "Full-stack e-commerce solution built with native HTML, JS, CSS PHP",
-      image: "src/assets/image/DJ4U.png",
+      image: "asset/image/DJ4U.png",
       sub: "Lomba Web Programming",
       live: "https://dj4u-live-demo.com",
       repo: "https://github.com/RAFIF-RF10/DJ4U_konserrrr",
@@ -35,7 +35,7 @@ const projectsData = {
     {
       title: "Web Sekolah SMKN 8 Jember",
       desc: "Website resmi SMKN 8 Jember dengan fitur lengkap untuk informasi sekolah.",
-      image: "src/assets/image/smkn8jember.png",
+      image: "asset/image/smkn8jember.png",
       sub: "Lomba Web Programming",
       live: "https://smkn08jember.sch.id/",
       repo: "https://github.com/hanNajib/jhic",
@@ -45,7 +45,7 @@ const projectsData = {
     {
       title: "Web MOTODO",
       desc: "Website Learning Management System (LMS) untuk siswa dan guru. ",
-      image: "src/assets/image/1.jpg",
+      image: "asset/image/1.jpg",
       sub: "Tugas PraUKK 2024-2025  ",
       live: "https://motodo.eskalaber.my.id/",
       repo: "https://github.com/RAFIF-RF10/Motodo",
@@ -55,7 +55,7 @@ const projectsData = {
     {
       title: "Website LABERATION",
       desc: "Website penjualan tiket konser SMKN 8 JEMBER.",
-      image: "src/assets/image/laberation.png",
+      image: "asset/image/Laberation.png",
       sub: "Lomba Web Programming",
       live: "http://laboration.vercel.app/",
       repo: "https://github.com/hanNajib/LABERATION-2025",
@@ -64,7 +64,7 @@ const projectsData = {
     {
       title: "Website Djember Fest",
       desc: "Reactjs + Tailwind.",
-      image: "src/assets/image/image.png",
+      image: "asset/image/image.png",
       sub: "Lomba Web Programming",
       live: "http://djember-fest.vercel.app/",
       repo: "https://github.com/hanNajib/DJEMBER-FEST",
@@ -73,7 +73,7 @@ const projectsData = {
     {
       title: "Portfolio Website",
       desc: "React + Express untuk voting realtime.",
-      image: "src/assets/image/portfolio.jpg",
+      image: "asset/image/portfolio.jpg",
       sub: "Portfolio",
       live: "https://yourportfolio.vercel.app",
       repo: "https://github.com/username/portfolio",
@@ -85,7 +85,7 @@ const projectsData = {
     {
       title: "Desaign App Geraiku",
       desc: "Figma UI/UX App Geraiku.",
-      image: "src/assets/image/geraiku.jpg",
+      image: "asset/image/geraiku.jpg",
       sub: "Desain UI/UX",
       link: "https://www.figma.com/design/REixsjI97YG7fbkB9EElR2/Mie-ayam-3-porsi?node-id=0-1&t=qbrAPKt6ZkJYOmMG-1",
       type: "design",
@@ -96,7 +96,7 @@ const projectsData = {
     {
       title: "Photography Portfolio",
       desc: "A collection of my best photography work.",
-      image: "src/assets/image/gunung.jpg",
+      image: "asset/image/gunung.jpg",
       sub: "Photography",
       link: "https://yourphotographyportfolio.com",
       type: "photo",

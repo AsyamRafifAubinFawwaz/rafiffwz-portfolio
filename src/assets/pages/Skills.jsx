@@ -30,7 +30,6 @@ export const Skills = () => {
   const skillsData = {
     frontend: [
       { name: 'React.js', icon: FaReact, color: '#61DBFB' },
-      { name: 'Next.js', icon: SiNextdotjs, color: '#ffffff' },
       { name: 'TypeScript', icon: SiTypescript, color: '#3178c6' },
       { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06b6d4' },
       { name: 'Bootstrap', icon: SiBootstrap, color: '#7952b3' },
@@ -39,12 +38,12 @@ export const Skills = () => {
       { name: 'CSS3', icon: SiCss3, color: '#1572b6' },
     ],
     backend: [
-      { name: 'Node.js', icon: FaNode, color: '#68a063' },
+      // { name: 'Node.js', icon: FaNode, color: '#68a063' },
       { name: 'Laravel', icon: SiLaravel, color: '#ff2d20' },
-      { name: 'Python', icon: FaPython, color: '#3776ab' },
-      { name: 'Flask', icon: SiFlask, color: '#000000' },
+      // { name: 'Python', icon: FaPython, color: '#3776ab' },
+      // { name: 'Flask', icon: SiFlask, color: '#000000' },
       { name: 'Fast API', icon: SiFastapi, color: '#009688' },
-      { name: 'Django', icon: SiDjango, color: '#092e20' },
+      // { name: 'Django', icon: SiDjango, color: '#092e20' },
       { name: 'SQL', icon: SiMysql, color: '#00758f' },
       { name: 'PHP', icon: FaPhp, color: '#777bb4' },
     ],

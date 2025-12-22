@@ -6,8 +6,8 @@ const certificates = [
     title: "EPIM - Web Development",
     desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
     images: [
-      "src/assets/image/MIE AYAM 3 PORSI juara 1_page-0001.jpg",
-      "src/assets/image/MIE AYAM 3 PORSI juara 1_page-0002.jpg",
+      "asset/image/MIE AYAM 3 PORSI juara 1_page-0001.jpg",
+      "asset/image/MIE AYAM 3 PORSI juara 1_page-0002.jpg",
     ],
     badge: "1st Place",
     level: "Nasional",
@@ -17,7 +17,7 @@ const certificates = [
   {
     title: "Short Film - KEMENAG",
     desc: "‘Sejati’ menggambarkan perjuangan persahabatan di tengah perbedaan keyakinan.",
-  images: ["src/assets/image/sertifikat-sejati.jpg"],
+  images: ["asset/image/sertifikat-sejati.jpg"],
   badge: "2nd Place",
   level: "Provinsi",
   date: "14 Juli 2025",
@@ -26,7 +26,7 @@ const certificates = [
 {
   title: "Desain UI/UX Mobile App and Web",
   desc: "Figma UI/UX prototype for e-commerce mobile app",
-  images: ["src/assets/image/hummatect.jpg"],
+  images: ["asset/image/hummatect.jpg"],
   badge: "3rd Place",
   level: "Kota",
   date: "14 Juli 2025",
@@ -35,7 +35,7 @@ const certificates = [
 {
   title: "Jagoan Hosting Infra Competition (JHIC) 2025",
   desc: "Lomab Website Sekolah Tingkat Nasional ",
-  images: ["src/assets/image/jhic_page-0001.jpg"],
+  images: ["asset/image/jhic_page-0001.jpg"],
   badge: "Top 30 Nasional",
   level: "Nasional",
   date: "8 - 17 November 2025",
@@ -45,8 +45,8 @@ const certificates = [
   title: "EPIM - Web Development",
   desc: "Full-stack Ticketing solution built with native HTML JS CSS PHP",
   images: [
-    "src/assets/image/Tim Eskalaber piagam.jpg",
-    "src/assets/image/Tim Eskalaber piagam-nama.jpg",
+    "asset/image/Tim Eskalaber piagam.jpg",
+    "asset/image/Tim Eskalaber piagam-nama.jpg",
   ],
   badge: "3rd Runner Up",
   level: "Nasional",
@@ -56,7 +56,7 @@ const certificates = [
 {
     title: "PT. Pringapus Digital Technology",
     desc: "Figma UI/UX prototype for e-commerce mobile app",
-    images: ["src/assets/image/pkl.jpg"],
+    images: ["asset/image/pkl.jpg"],
     badge: "Magang",
     level: "Industri",
     date: "6 Januari 2025 - 6 Juni 2025",
@@ -65,7 +65,7 @@ const certificates = [
   {
     title: "PlayIt Polinema 2024",
     desc: "Lomba Pengembangan Website Polinema 2024",
-    images: ["src/assets/image/polinema2024.jpg"],
+    images: ["asset/image/polinema2024.jpg"],
     badge: "Peserta",
     level: "Nasional",
     date: "1-3 November 2024",
@@ -74,7 +74,7 @@ const certificates = [
   {
     title: "Kominfo",
     desc: "Seminar Literasi Digital",
-    images: ["src/assets/image/sertifikat-kominfo.jpg"],
+    images: ["asset/image/sertifikat-kominfo.jpg"],
     badge: "Seminar",
     level: "Industri",
     date: "31 Januari 2024",
