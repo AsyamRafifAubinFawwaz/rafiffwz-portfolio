@@ -8,10 +8,17 @@ import Achievement from './assets/pages/Achievement'
 import { Education } from './assets/pages/Education'
 import { Experience } from './assets/pages/Experience'
 import Footer from './components/Footer'
+import { Helmet } from 'react-helmet'
 
 function App() {
   return (
     <>
+    <Helmet>
+        <title>Home | Rafif Portfolio</title>
+        <meta name="description" content="Portfolio resmi Rafif - Web Developer" />
+        <meta name="google-site-verification" content="T5t4iHtmKDv17MwidohsMQghgJCxqP4flLe9v8WtNL8" />
+        <link rel="canonical" href="https://rafiffwz.com/" />
+      </Helmet>
       <Navbar />
       <section id="home">
         <Home />
