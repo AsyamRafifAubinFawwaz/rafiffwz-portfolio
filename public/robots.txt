@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+
+Sitemap: https://rafiffwz.com/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Allow crawling of common crawlers
+User-agent: *
+Crawl-delay: 1
