@@ -28,30 +28,7 @@ function App() {
 
   return (
     <>
-    <Helmet>
-        <title>Rafif | Web Developer Portfolio - React, JavaScript, Tailwind</title>
-        <meta name="description" content="Portfolio Rafif - Full Stack Web Developer. Spesialisasi dalam React, JavaScript, HTML, CSS, Tailwind CSS, dan responsive design." />
-        <meta name="keywords" content="web developer, react developer, javascript, portfolio, front-end, full stack, tailwind css" />
-        <meta name="google-site-verification" content="T5t4iHtmKDv17MwidohsMQghgJCxqP4flLe9v8WtNL8" />
-        <link rel="canonical" href="https://rafiffwz.com/" />
-        
-        {/* Open Graph */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rafiffwz.com/" />
-        <meta property="og:title" content="Rafif | Professional Web Developer Portfolio" />
-        <meta property="og:description" content="Portfolio Rafif - Full Stack Web Developer specializing in React and JavaScript" />
-        <meta property="og:image" content="https://rafiffwz.com/og-image.png" />
-        
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Rafif | Web Developer Portfolio" />
-        <meta name="twitter:description" content="Lihat portfolio saya sebagai Web Developer professional" />
-        
-        {/* Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify(schemaData)}
-        </script>
-      </Helmet>
+    
       <Navbar />
       <section id="home">
         <Home />
