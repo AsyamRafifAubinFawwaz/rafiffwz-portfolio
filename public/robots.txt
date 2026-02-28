@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://rafiffwz.com/sitemap.xml
+Sitemap: https://rafiffwz-portfolio.vercel.app/sitemap.xml
 
 # Google
 User-agent: Googlebot
