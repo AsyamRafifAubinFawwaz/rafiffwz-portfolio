@@ -12,7 +12,7 @@ export default function Home() {
 
 
   const handleDownloadCV = () => {
-    window.open("asset/image/Rafif-cv.pdf", "_blank");
+    window.open("asset/image/CV_ATS_Asyam Rafif Aubin Fawwaz.pdf", "_blank");
   };
 
   return (

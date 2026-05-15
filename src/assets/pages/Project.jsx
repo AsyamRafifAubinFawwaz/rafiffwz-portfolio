@@ -33,6 +33,15 @@ const projectsData = {
       type: "code",
     },
     {
+      title: "SARPRASIN ",
+      desc: "Sistem Pengaduan Sarana Sekolah. Built with Laravel + Tailwind.",
+      image: "asset/image/sarprasin.jpg",
+      sub: "Lomba Web Programming",
+      live: "https://sarprasin.eskalaber.my.id/",
+      repo: "https://github.com/AsyamRafifAubinFawwaz/sasprasin",
+      type: "code",
+    },
+    {
       title: "Web Sekolah SMKN 8 Jember",
       desc: "Website resmi SMKN 8 Jember dengan fitur lengkap untuk informasi sekolah.",
       image: "asset/image/smkn8jember.png",

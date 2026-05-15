@@ -33,8 +33,17 @@ const certificates = [
   location: "Malang, East Java",
 },
 {
+  title: "DINUS APPLICATION COMPETITION 2026 ",
+  desc: "Lomba Hackathon Aplikasi Mobile dan Web Tingkat Nasional",
+  images: ["asset/image/sertifikat-dinacom-2026.png"],
+  badge: "Top 10 Nasional",
+  level: "Nasional",
+  date: "Februari 2026",
+  location: "Semarang, Central Java",
+},
+{
   title: "Jagoan Hosting Infra Competition (JHIC) 2025",
-  desc: "Lomab Website Sekolah Tingkat Nasional ",
+  desc: "Lomba Website Sekolah Tingkat Nasional ",
   images: ["asset/image/jhic_page-0001.jpg"],
   badge: "Top 30 Nasional",
   level: "Nasional",
